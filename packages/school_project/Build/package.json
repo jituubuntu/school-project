@@ -1,0 +1,18 @@
+{
+  "name": "hof-university-school-project",
+  "description": "This is a school project for Independent Course Work",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jituubuntu/school-project.git"
+  },
+  "homepage": "https://hof-university.de",
+  "author": "Jitender Sharma",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-contrib-imagemin": "^2.0.1"
+  }
+}
