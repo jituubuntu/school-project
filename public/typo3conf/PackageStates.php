@@ -71,6 +71,12 @@ return [
         'school_project' => [
             'packagePath' => 'typo3conf/ext/school_project/',
         ],
+        'extension_builder' => [
+            'packagePath' => 'typo3conf/ext/extension_builder/',
+        ],
+        'school_evaluation_key' => [
+            'packagePath' => 'typo3conf/ext/school_evaluation_key/',
+        ],
     ],
     'version' => 5,
 ];

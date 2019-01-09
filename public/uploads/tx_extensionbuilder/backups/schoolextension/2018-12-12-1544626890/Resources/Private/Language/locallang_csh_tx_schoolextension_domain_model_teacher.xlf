@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-12-12T07:40:31Z" product-name="schoolextension">
+		<header/>
+		<body>
+			<trans-unit id="teacher_id.description">
+				<source>teacherId</source>
+			</trans-unit>
+			<trans-unit id="first_name.description">
+				<source>firstName</source>
+			</trans-unit>
+			<trans-unit id="last_name.description">
+				<source>lastName</source>
+			</trans-unit>
+			<trans-unit id="mail_id.description">
+				<source>mailId</source>
+			</trans-unit>
+			<trans-unit id="about_me.description">
+				<source>aboutMe</source>
+			</trans-unit>
+			<trans-unit id="department.description">
+				<source>department</source>
+			</trans-unit>
+			<trans-unit id="classes.description">
+				<source>classes</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

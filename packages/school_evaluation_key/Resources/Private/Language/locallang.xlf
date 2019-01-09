@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-01-09T06:29:35Z" product-name="school_evaluation_key">
+		<header/>
+		<body>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_teacher">
+				<source>Teacher</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_teacher.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_teacher.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_teacher.dob">
+				<source>Dob</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_teacher.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_student">
+				<source>Student</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_student.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_student.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_student.attendance">
+				<source>Attendance</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_student.dob">
+				<source>Dob</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_student.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_evaluation">
+				<source>Evaluation</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_evaluation.marks">
+				<source>Marks</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_evaluation.student">
+				<source>Student</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_evaluation.teacher">
+				<source>Teacher</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_attendance">
+				<source>Attendance</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_attendance.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_attendance.student">
+				<source>Student</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolevaluationkey_domain_model_attendance.teacher">
+				<source>Teacher</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

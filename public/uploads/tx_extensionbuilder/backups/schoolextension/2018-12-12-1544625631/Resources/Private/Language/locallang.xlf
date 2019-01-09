@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-12-12T07:37:44Z" product-name="schoolextension">
+		<header/>
+		<body>
+			<trans-unit id="tx_schoolextension_domain_model_teacher">
+				<source>Teacher</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_teacher.teacher_id">
+				<source>Teacher Id</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_teacher.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_teacher.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_teacher.mail_id">
+				<source>Mail Id</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_teacher.about_me">
+				<source>About Me</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_teacher.department">
+				<source>Department</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_teacher.classes">
+				<source>Classes</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_department">
+				<source>Department</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_department.department_id">
+				<source>Department Id</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_department.department_name">
+				<source>Department Name</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_classes">
+				<source>Classes</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_classes.class_id">
+				<source>Class Id</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_classes.class_name">
+				<source>Class Name</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_classes.department">
+				<source>Department</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_student">
+				<source>Student</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_student.student_id">
+				<source>Student Id</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_student.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_student.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_student.dob">
+				<source>Dob</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_student.contact">
+				<source>Contact</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_student.classes">
+				<source>Classes</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_mark">
+				<source>Mark</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_mark.marks">
+				<source>Marks</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_mark.student">
+				<source>Student</source>
+			</trans-unit>
+			<trans-unit id="tx_schoolextension_domain_model_mark.classes">
+				<source>Classes</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

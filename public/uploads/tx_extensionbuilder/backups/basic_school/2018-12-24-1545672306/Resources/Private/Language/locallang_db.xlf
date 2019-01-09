@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-12-24T10:20:44Z" product-name="basic_school">
+		<header/>
+		<body>
+			<trans-unit id="tx_basicschool_domain_model_student">
+				<source>Student</source>
+			</trans-unit>
+			<trans-unit id="tx_basicschool_domain_model_student.class">
+				<source>Class</source>
+			</trans-unit>
+			<trans-unit id="tx_basicschool_domain_model_student.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_basicschool_domain_model_student.marks">
+				<source>Marks</source>
+			</trans-unit>
+			<trans-unit id="tx_basicschool_domain_model_student.attendence">
+				<source>Attendence</source>
+			</trans-unit>
+			<trans-unit id="tx_basicschool_domain_model_student.marks_relation">
+				<source>Marks Relation</source>
+			</trans-unit>
+			<trans-unit id="tx_basicschool_domain_model_student.attendence_relation">
+				<source>Attendence Relation</source>
+			</trans-unit>
+			<trans-unit id="tx_basicschool_domain_model_teacher">
+				<source>Teacher</source>
+			</trans-unit>
+			<trans-unit id="tx_basicschool_domain_model_teacher.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_basicschool_domain_model_teacher.department">
+				<source>Department</source>
+			</trans-unit>
+			<trans-unit id="tx_basicschool_domain_model_teacher.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_basic_school_student.name">
+				<source>Student</source>
+			</trans-unit>
+			<trans-unit id="tx_basic_school_student.description">
+				<source>This is student Plugin</source>
+			</trans-unit>
+			<trans-unit id="tx_basic_school_teacher.name">
+				<source>Teacher Plugin</source>
+			</trans-unit>
+			<trans-unit id="tx_basic_school_teacher.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

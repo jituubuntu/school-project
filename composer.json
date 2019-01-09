@@ -30,7 +30,8 @@
     "typo3/cms-setup": "^9.5",
     "typo3/cms-t3editor": "^9.5",
     "typo3/cms-tstemplate": "^9.5",
-    "typo3/cms-viewpage": "^9.5"
+    "typo3/cms-viewpage": "^9.5",
+    "schoolevaluation/school-evaluation-key": "^1.0"
   },
   "license": "GPL-2.0-or-later",
   "extra": {
@@ -45,5 +46,8 @@
       "name": "Jitender Sharma",
       "email": "capitol2221@gmail.com"
     }
-  ]
+  ],
+  "require-dev": {
+    "friendsoftypo3/extension-builder": "dev-master"
+  }
 }

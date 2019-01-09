@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-01-09T06:12:59Z" product-name="school_evaluation_key">
+		<header/>
+		<body>
+			<trans-unit id="first_name.description">
+				<source>firstName</source>
+			</trans-unit>
+			<trans-unit id="last_name.description">
+				<source>lastName</source>
+			</trans-unit>
+			<trans-unit id="attendance.description">
+				<source>attendance</source>
+			</trans-unit>
+			<trans-unit id="dob.description">
+				<source>dob</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>email</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

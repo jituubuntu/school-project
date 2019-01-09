@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-12-24T10:20:44Z" product-name="basic_school">
+		<header/>
+		<body>
+			<trans-unit id="class.description">
+				<source>class</source>
+			</trans-unit>
+			<trans-unit id="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="marks.description">
+				<source>marks</source>
+			</trans-unit>
+			<trans-unit id="attendence.description">
+				<source>attendence</source>
+			</trans-unit>
+			<trans-unit id="marks_relation.description">
+				<source>marksRelation</source>
+			</trans-unit>
+			<trans-unit id="attendence_relation.description">
+				<source>attendenceRelation</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

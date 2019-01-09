@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9da31d0815892791d59190f38690eda",
+    "content-hash": "9e49734e212b2cbf3e8efdb46122d985",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -1605,6 +1605,34 @@
                 "simple-cache"
             ],
             "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "schoolevaluation/school-evaluation-key",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/school_evaluation_key",
+                "reference": "d2c0f04bfc24ea7e0de4525ebe5583d5afbef037",
+                "shasum": null
+            },
+            "require": {
+                "typo3/cms-core": "^9.5"
+            },
+            "replace": {
+                "school_evaluation_key": "self.version",
+                "typo3-ter/school-evaluation-key": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "SchoolEvaluation\\SchoolEvaluationKey\\": "Classes"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "SchoolEvaluation\\SchoolEvaluationKey\\Tests\\": "Tests"
+                }
+            }
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3691,6 +3719,11 @@
         {
             "name": "typo3/minimal",
             "version": "v9.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3/minimal.git",
+                "reference": "6ca773e3a90f193ef6cbac7be810d2e8eb6d06fc"
+            },
             "require": {
                 "typo3/cms-backend": "9.5.*@dev",
                 "typo3/cms-core": "9.5.*@dev",
@@ -3807,10 +3840,102 @@
             "time": "2018-07-09T12:55:32+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "friendsoftypo3/extension-builder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfTYPO3/extension_builder.git",
+                "reference": "40f07111f069e95e48ea70c46cd00f7ba0eae7f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfTYPO3/extension_builder/zipball/40f07111f069e95e48ea70c46cd00f7ba0eae7f7",
+                "reference": "40f07111f069e95e48ea70c46cd00f7ba0eae7f7",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "~9.5"
+            },
+            "replace": {
+                "extension_builder": "self.version",
+                "typo3-ter/extension-builder": "self.version"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "nimut/testing-framework": "^4.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/Web"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "EBT\\ExtensionBuilder\\": "Classes/",
+                    "PhpParser\\": "Resources/Private/PHP/PHP-Parser/lib/PhpParser/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Nico de Haen",
+                    "role": "Developer"
+                },
+                {
+                    "name": "extension_builder Development Team",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Tool to kickstart and maintain TYPO3 extensions",
+            "homepage": "https://github.com/FriendsOfTYPO3/extension_builder",
+            "keywords": [
+                "extension",
+                "extension_builder",
+                "typo3"
+            ],
+            "time": "2018-11-20T23:23:31+00:00"
+        },
+        {
+            "name": "school/schoolextension",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/schoolextension",
+                "reference": "0b02c003b12d1b0f7d714c02852ca76ec539bbff",
+                "shasum": null
+            },
+            "require": {
+                "typo3/cms-core": "^9.5"
+            },
+            "replace": {
+                "schoolextension": "self.version",
+                "typo3-ter/schoolextension": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "School\\Schoolextension\\": "Classes"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "School\\Schoolextension\\Tests\\": "Tests"
+                }
+            }
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "friendsoftypo3/extension-builder": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
