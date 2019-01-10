@@ -21,7 +21,6 @@
 			<tr>
 				<th><f:translate key="tx_schoolevaluationkey_domain_model_student.first_name" /></th>
 				<th><f:translate key="tx_schoolevaluationkey_domain_model_student.last_name" /></th>
-				<th><f:translate key="tx_schoolevaluationkey_domain_model_student.attendance" /></th>
 				<th><f:translate key="tx_schoolevaluationkey_domain_model_student.dob" /></th>
 				<th><f:translate key="tx_schoolevaluationkey_domain_model_student.email" /></th>
 				<th> </th>
@@ -32,7 +31,6 @@
 				<tr>
 					<td><f:link.action action="show" arguments="{student : student}"> {student.firstName}</f:link.action></td>
 					<td><f:link.action action="show" arguments="{student : student}"> {student.lastName}</f:link.action></td>
-					<td><f:link.action action="show" arguments="{student : student}"> {student.attendance}</f:link.action></td>
 					<td><f:link.action action="show" arguments="{student : student}"> {student.dob -> f:format.date()}</f:link.action></td>
 					<td><f:link.action action="show" arguments="{student : student}"> {student.email}</f:link.action></td>
 					<td><f:link.action action="edit" arguments="{student : student}">Edit</f:link.action></td>

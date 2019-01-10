@@ -32,13 +32,6 @@ class Student extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     protected $lastName = '';
 
     /**
-     * attendance
-     *
-     * @var string
-     */
-    protected $attendance = '';
-
-    /**
      * dob
      *
      * @var \DateTime
