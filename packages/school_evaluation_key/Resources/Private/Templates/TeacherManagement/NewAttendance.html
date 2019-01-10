@@ -1,0 +1,20 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+  <f:layout name="Default" />
+
+  <f:section name="content">
+    <h1>New Attendance for {student.firstName} {student.lastName}</h1>
+
+    <f:flashMessages />
+
+    <f:render partial="FormErrors" />
+
+    <f:form action="createAttendance"  name="newAttendance" object="{newAttendance}" arguments="{student: student}">
+    <f:render partial="Attendance/FormFields" />
+    <f:form.submit value="Create new" />
+    </f:form>
+
+    <p>
+      <f:link.action action="listAttendances" class="btn btn-default" arguments="{student: student}" additionalAttributes="{role: 'button'}">Back</f:link.action>
+    </p>
+  </f:section>
+</html>

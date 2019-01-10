@@ -1,6 +1,9 @@
 <?php
 namespace SchoolEvaluation\SchoolEvaluationKey\Domain\Repository;
 
+use SchoolEvaluation\SchoolEvaluationKey\Domain\Model\Student;
+use TYPO3\CMS\Extbase\Persistence\QueryResultInterface;
+
 /***
  *
  * This file is part of the "school_evaluation" Extension for TYPO3 CMS.
@@ -17,4 +20,16 @@ namespace SchoolEvaluation\SchoolEvaluationKey\Domain\Repository;
  */
 class AttendanceRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 {
+    /**
+     * @param Student $student
+     * @return array|QueryResultInterface|Student[]
+     */
+    public function findByStudent(Student $student)
+    {
+        $query = $this->createQuery();
+        $query->matching(
+            $query->equals('student', $student)
+        );
+        return $query->execute();
     }
+}

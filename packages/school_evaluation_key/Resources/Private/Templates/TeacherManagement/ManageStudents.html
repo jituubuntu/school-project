@@ -1,0 +1,36 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:layout name="Default" />
+
+	<f:section name="content">
+		<h1>Listing for Student</h1>
+
+		<f:flashMessages />
+
+		<table  class="tx_schoolevaluationkey" >
+			<tr>
+				<th><f:translate key="tx_schoolevaluationkey_domain_model_student.first_name" /></th>
+				<th><f:translate key="tx_schoolevaluationkey_domain_model_student.last_name" /></th>
+				<th><f:translate key="tx_schoolevaluationkey_domain_model_student.dob" /></th>
+				<th><f:translate key="tx_schoolevaluationkey_domain_model_student.email" /></th>
+				<th> </th>
+				<th> </th>
+			</tr>
+
+			<f:for each="{students}" as="student">
+				<tr>
+					<td><f:link.action action="show" arguments="{student : student}"> {student.firstName}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{student : student}"> {student.lastName}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{student : student}"> {student.dob -> f:format.date()}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{student : student}"> {student.email}</f:link.action></td>
+					<td><f:link.action action="listAttendances" arguments="{student : student}">Attendances</f:link.action></td>
+					<td><f:link.action action="listMarks" arguments="{student : student}">Marks</f:link.action></td>
+				</tr>
+			</f:for>
+		</table>
+
+		<f:comment>
+			<!-- disabled for the time being -->
+			<f:link.action action="new">New Student</f:link.action>
+		</f:comment>
+	</f:section>
+</html>
