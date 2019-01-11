@@ -1,0 +1,37 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+  <f:layout name="Default" />
+
+  <f:section name="content">
+    <h1>Attendances for {student.firstName} {student.lastName}</h1>
+
+    <f:if condition="{attendances}">
+      <f:then>
+        <ul>
+          <f:for each="{attendances}" as="attendance">
+            <li>
+              {attendance.date -> f:format.date(format:'Y-m-d')}
+              | <f:link.action action="editAttendance" arguments="{attendance: attendance}">edit</f:link.action>
+              | <f:link.action action="deleteAttendance" arguments="{attendance: attendance}">delete</f:link.action>
+            </li>
+          </f:for>
+        </ul>
+        <div class="alert alert-info">
+          Total amount: {amountOfAttendances}
+        </div>
+      </f:then>
+
+      <f:else>
+        <div class="alert alert-info">
+          No attendances found for this student...
+        </div>
+      </f:else>
+    </f:if>
+
+    <p>
+      <f:link.action action="newAttendance" arguments="{student: student}" class="btn btn-primary" additionalAttributes="{role: 'button'}">New Attendance</f:link.action>
+    </p>
+    <p>
+      <f:link.action action="manageStudents" class="btn btn-default" additionalAttributes="{role: 'button'}">Back to Overview</f:link.action>
+    </p>
+  </f:section>
+</html>

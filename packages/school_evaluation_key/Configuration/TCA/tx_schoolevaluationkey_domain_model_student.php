@@ -134,15 +134,6 @@ return [
                 'eval' => 'trim'
             ],
         ],
-        'attendance' => [
-            'exclude' => true,
-            'label' => 'LLL:EXT:school_evaluation_key/Resources/Private/Language/locallang_db.xlf:tx_schoolevaluationkey_domain_model_student.attendance',
-            'config' => [
-                'type' => 'input',
-                'size' => 30,
-                'eval' => 'trim'
-            ],
-        ],
         'dob' => [
             'exclude' => true,
             'label' => 'LLL:EXT:school_evaluation_key/Resources/Private/Language/locallang_db.xlf:tx_schoolevaluationkey_domain_model_student.dob',

@@ -27,9 +27,6 @@
 			<trans-unit id="tx_schoolevaluationkey_domain_model_student.last_name">
 				<source>Last Name</source>
 			</trans-unit>
-			<trans-unit id="tx_schoolevaluationkey_domain_model_student.attendance">
-				<source>Attendance</source>
-			</trans-unit>
 			<trans-unit id="tx_schoolevaluationkey_domain_model_student.dob">
 				<source>Dob</source>
 			</trans-unit>

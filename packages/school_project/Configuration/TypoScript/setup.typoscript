@@ -28,3 +28,8 @@ page {
         school_project_scripts = EXT:school_project/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
+
+// @todo used for debugging - remove late for production website
+config {
+    contentObjectExceptionHandler = 0
+}

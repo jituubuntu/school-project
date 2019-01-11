@@ -17,7 +17,6 @@ CREATE TABLE tx_schoolevaluationkey_domain_model_student (
 
 	first_name varchar(255) DEFAULT '' NOT NULL,
 	last_name varchar(255) DEFAULT '' NOT NULL,
-	attendance varchar(255) DEFAULT '' NOT NULL,
 	dob date DEFAULT NULL,
 	email varchar(255) DEFAULT '' NOT NULL,
 
