@@ -19,13 +19,13 @@ call_user_func(
             ],
             // non-cacheable actions
             [
-                'TeacherManagement' => 'index, '
-                    . 'showStudents, newAttendance, createAttendance, editAttendance, updateAttendance, deleteAttendance, '
-                    . 'showMarks',
-                'Teacher' => 'create, update, delete',
-                'Student' => 'create, update, delete',
-                'Evaluation' => 'create, update, delete',
-                'Attendance' => 'create, update, delete'
+                'TeacherManagement' => 'index, manageStudents, '
+                    . 'listAttendances, newAttendance, createAttendance, editAttendance, updateAttendance, deleteAttendance, '
+                    . 'listMarks',
+                'Teacher' => 'list, show, new, create, edit, update, delete',
+                'Student' => 'list, show, new, create, edit, update, delete',
+                'Evaluation' => 'list, show, new, create, edit, update, delete',
+                'Attendance' => 'list, show, new, create, edit, update, delete'
             ]
         );
 
