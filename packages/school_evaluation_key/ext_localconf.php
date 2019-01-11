@@ -10,8 +10,7 @@ call_user_func(
             'Teacher',
             [
                 'TeacherManagement' => 'index, manageStudents, '
-                    . 'listAttendances, newAttendance, createAttendance, editAttendance, updateAttendance, deleteAttendance, '
-                    . 'listMarks',
+                    . 'listAttendances, newAttendance, createAttendance, editAttendance, updateAttendance, deleteAttendance, listEvaluations, newEvaluation, createEvaluation, editEvaluation, updateEvaluation, deleteAttedance',
                 'Teacher' => 'list, show, new, create, edit, update, delete',
                 'Student' => 'list, show, new, create, edit, update, delete',
                 'Evaluation' => 'list, show, new, create, edit, update, delete',
@@ -20,8 +19,7 @@ call_user_func(
             // non-cacheable actions
             [
                 'TeacherManagement' => 'index, manageStudents, '
-                    . 'listAttendances, newAttendance, createAttendance, editAttendance, updateAttendance, deleteAttendance, '
-                    . 'listMarks',
+                    . 'listAttendances, newAttendance, createAttendance, editAttendance, updateAttendance, deleteAttendance, listEvaluations, newEvaluation, createEvaluation, editEvaluation, updateEvaluation, deleteAttedance',
                 'Teacher' => 'list, show, new, create, edit, update, delete',
                 'Student' => 'list, show, new, create, edit, update, delete',
                 'Evaluation' => 'list, show, new, create, edit, update, delete',

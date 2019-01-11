@@ -23,7 +23,7 @@
 					<td><f:link.action action="show" arguments="{student : student}"> {student.dob -> f:format.date()}</f:link.action></td>
 					<td><f:link.action action="show" arguments="{student : student}"> {student.email}</f:link.action></td>
 					<td><f:link.action action="listAttendances" arguments="{student : student}">Attendances</f:link.action></td>
-					<td><f:link.action action="listMarks" arguments="{student : student}">Marks</f:link.action></td>
+					<td><f:link.action action="listEvaluations" arguments="{student : student}">Evaluation</f:link.action></td>
 				</tr>
 			</f:for>
 		</table>
